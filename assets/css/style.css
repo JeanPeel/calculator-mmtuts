@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+}
+
+.auto-center {
+    margin: 0 auto;
+}
+
+section {
+    width: 50%;
+    border: 5px double black;
+    padding: 3%;
+}
+
+div {
+    border: 1px solid black;
+    padding: 3%;
+}
+
+#results {
+    border: 1px solid black;
+    padding-left: 3%;
+    padding-right: 3%;
+}
