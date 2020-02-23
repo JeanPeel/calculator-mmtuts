@@ -12,12 +12,25 @@
         <link rel='meyer-reset' type='reset' href='assets/css/reset.css'>
         <link rel='stylesheet' href='assets/css/style.css'>
 
-        <title>title</title>
+        <title>MMTUTS Calculator</title>
     </head>
     <body>
-        <h1>title</h1>
-
+        <h1>MMTUTS Calculator</h1>
         
+        <form>
+            Value 1: <input type="text" id="value1">
+            Value 2: <input type="text" id="value2">
+            Operator:
+            <select id="operator">
+                <option value="add">Add</option>
+                <option value="min">Minus</option>
+                <option value="div">Divide</option>
+                <option value="mul">Multiply</option>
+            </select>
+            <button type="button" onclick="calc()">Calculate</button>
+        </form>
+        
+        <div>Equals <div id="results"></div></div>
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
