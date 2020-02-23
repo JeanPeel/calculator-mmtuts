@@ -2,23 +2,27 @@ h1 {
     text-align: center;
 }
 
+h3 {
+    text-align: center;
+}
+
 .auto-center {
     margin: 0 auto;
 }
 
 section {
-    width: 50%;
+    width: 400px;
     border: 5px double black;
-    padding: 3%;
+    padding: 50px;
 }
 
 div {
     border: 1px solid black;
-    padding: 3%;
+    padding: 20px;
 }
 
 #results {
     border: 1px solid black;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 20px;
+    padding-right: 20px;
 }
